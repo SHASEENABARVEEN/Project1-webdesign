@@ -1,0 +1,104 @@
+.navbar h2{
+    font-size:25px;
+    color:white;
+    font-family: Verdana;
+    height:50px;
+    padding-top:15px;
+    padding-right:100px;
+}
+button.navbar-toggler{
+    font-size: 25px;
+    position:absolute;
+    top:10px;
+    left:45px;
+}
+.bg{
+    background-color:maroon;
+}
+.titl{
+    font-size:20px;
+    color:white;
+    
+}
+ ul > li> a{
+    font-size:20px;
+}
+.divider{
+    color:white;
+}
+.dropdown-menu {
+    background-color: black;
+}
+.foot{
+    position:fixed;
+    bottom:0px;   
+    width:980px;
+    height:100px;
+}
+.ol img{
+    width:800px;
+    height:500px;;
+    top:300px;
+    left:-50px;
+    border-radius:20px;
+    position:relative;
+}
+h1.aarii{
+    padding:30px;
+    background-color:purple;
+    opacity:0.8;
+    width:fit-content;
+    position:relative;
+    top:-20px;
+    left:80px;
+    font-size:100px;
+    color:whitesmoke;
+    font-weight: bolder;
+    
+    text-decoration:dotted;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div.card{
+    width:750px;
+    height:500px;
+    position:relative;
+    margin-top:125px;
+    margin-bottom:125px;
+    right:20px;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 15px solid black;
+    border-bottom: 15px solid black;
+}
+.dart {
+    position: relative;
+    top:150px;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color:chocolate;
+width:fit-content;
+padding:30px;
+}
+.princ {
+    position: relative;
+    top:150px;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color:cadetblue;
+width:fit-content;
+padding:30px;
+}
+.kurti{
+    position: absolute;
+    top:220px;
+    left:150px;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color:mediumorchid;
+width:fit-content;
+padding:30px;
+
+}
+
+
+

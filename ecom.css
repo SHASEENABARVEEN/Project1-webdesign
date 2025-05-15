@@ -1,0 +1,185 @@
+*{
+    font-family: Palatino;
+}
+.navbar h2{
+    font-size:18px;
+    color:white;
+    font-family: Verdana;
+    height:30px;
+    padding-top:5px;
+    padding-left:20px;
+}
+button.navbar-toggler{
+    font-size: 20px;
+    position:absolute;
+    left:20px;
+}
+.bg{
+    background-color:maroon;
+}
+.searchbox button{
+    background-color:maroon; 
+    border:2px solid black;
+    border-radius:50px;
+    width:60px;
+    height:35px;
+    font-size:12px;
+    color:white;
+    
+    
+}
+.searchbox{
+    position:relative;
+    top:80px;
+    margin:0px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchbox input{
+    width:210px;
+    height:35px;
+    border:2px solid black;
+    border-radius:50px;
+    font-size:13px;
+}
+.searchbox input::placeholder{
+    font-size:12px;
+    
+}.titl{
+    font-size:15px;
+    color:white;
+    
+}
+ ul > li> a{
+    font-size:15px;
+}
+.divider{
+    color:white;
+}
+.dropdown-menu {
+    background-color: black;
+}
+.foot{
+    position:fixed;
+    bottom:0px;   
+    width:100%;
+    height:100px;
+}
+div.offcanvas{
+    width:50%;
+}
+li.nav-item a{
+    font-size:20px;
+    
+}
+.container{
+    position:relative;
+    top:100px;
+}
+div.card{
+    height:220px;
+    width:160px;
+    margin:10px;
+}
+.card img{
+    width:150px;
+    height:60%;
+    margin:12% 2% 2% 2%;
+}
+.card h2{
+    
+    font-size:10px;
+    font-weight:bold;
+    margin-left:5px;
+    text-align: center;
+}
+.card h3{
+    font-size:10px;
+    color:grey;
+    margin-left:5px;
+    margin-top:0px;
+    text-align: center;
+}
+.card span{
+    color:grey;
+    font-size:12px;
+}
+.card button{
+    background-color:maroon;
+    border:1px solid black;
+    color:white;
+   
+    width:fit-content;
+    height:fit-content;
+    padding:3px 25px;
+    font-size:9px;
+}
+div.buy{
+margin:5px 0px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.card button.cart{
+    padding:3px 7px;
+    margin:0px 25%;
+text-align:left;
+    
+}
+.card a.like{
+    position:absolute;
+    top:10px;
+    right:2px;
+    
+}
+.filters{
+   margin:30px 0px;
+   gap:5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.filters button{
+    width:fit-content;
+    height:fit-content;
+    border-radius:20px;
+    border:2px solid maroon;
+    font-size:14px;
+    padding:2px 10px;
+    background-color:white ;
+     display:flex;
+    position:relative;
+    top:80px;
+}
+button.no1{
+    background-color :maroon;
+    color: white;
+}
+@media  screen and (min-width:800px) {
+    div.offcanvas{
+        width:25%;
+    }
+    div.card h2{
+        font-size: 15px;
+    }
+    .card img{
+        width:200px;
+        height:210px;
+    }
+    div.card h3{
+        font-size:15px;
+    }
+    div.card{
+        width:210px;
+        height: 350px;
+    }
+    div.buy button{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    button.cart{
+        margin-bottom: 10px;
+    }
+}

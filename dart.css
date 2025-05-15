@@ -1,0 +1,119 @@
+.navbar h2{
+    font-size:25px;
+    color:white;
+    font-family: Verdana;
+    height:50px;
+    padding-top:15px;
+    padding-right:100px;
+}
+button.navbar-toggler{
+    font-size: 25px;
+    position:absolute;
+    top:10px;
+    left:45px;
+}
+.bg{
+    background-color:maroon;
+}
+.formm{
+    text-align: left;
+    position:relative;
+    top:200px;
+    font-size:40px;
+
+}
+.formm form input{
+    border:3px solid black;
+    border-radius: 10px;
+    width:700px;
+    height:60px;
+    
+    
+}
+
+.formm form{
+    margin-left:100px;
+    line-height:80px;
+    position: relative;
+    top:100px;
+    margin-bottom:300px;
+}
+.formm h1{
+    text-align :center;
+    font-size:60px;
+}
+.sub{
+    background-color: midnightblue;
+    position: relative;
+    top:50px;
+    margin-left:200px;
+    border-radius:30px;
+    color:white;
+    padding:10px 20px;
+    width:fit-content;
+    height:100px;
+}
+ul > li> a{
+    font-size:40px;
+}
+.divider{
+    color:white;
+}
+.dropdown-menu {
+    background-color: black;
+}
+.foot{
+    position:fixed;
+    bottom:0px;   
+    width:980px;
+    height:100px;
+
+}
+img{
+    position: relative;
+    top:400px;
+    margin-bottom: 150px;;
+    width:700px;
+    height:700px;
+}
+div.value1 {
+    background-color:grey;
+    width:200px;
+    height:700px;
+    position: relative;
+    top:400px;
+    left:70px;
+}
+div.value1 > .patti{
+    color:black;
+    font-weight: bold;
+    padding-top:42%;
+    padding-left:80px;
+    font-size: 40px;
+    line-height:70px;
+}
+div.value1 > .front{
+    color:black;
+    font-weight: bold;
+    padding-top:38%;
+    padding-left:80px;
+    font-size: 40px;
+    line-height:70px;
+}
+div.value1 > .back{
+    color:black;
+    font-weight: bold;
+    padding-top:42%;
+    padding-left:80px;
+    font-size: 40px;
+    line-height:70px;
+}
+div.value1 > .hand{
+    color:black;
+    font-weight: bold;
+    padding-top:42%;
+    padding-left:80px;
+    font-size: 40px;
+    line-height:70px;
+    margin-bottom:200px;
+}

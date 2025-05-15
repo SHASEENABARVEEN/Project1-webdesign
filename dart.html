@@ -1,0 +1,162 @@
+<html>
+    <head><link rel="stylesheet" href="dart.css">
+        <title>Project 2</title>
+    </link>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="container-ms"><nav class="navbar navbar-dark bg fixed-top">
+        <div class="container-fluid">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <h2 class=" headd" >Feline Designing</h2>
+        </div>
+          <div class="offcanvas offcanvas-start bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title titl" id="offcanvasDarkNavbarLabel">Menu</h5>
+              <button style="font-size:40px;" type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav  pt-5 justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item pb-4 ">
+                  <a class="nav-link active" aria-current="page" href="fas.html">Home</a>
+                </li><br>
+                
+                
+                <li class="nav-item pb-4">
+                  <a class="nav-link" href="#contacts">About us</a>
+                </li><br>
+                
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Go to
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark ">
+                    <li><a class="dropdown-item " href="#">Search</a></li>
+                    <li><a class="dropdown-item" href="course.html">Tutorial</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Learn more</a></li>
+                  </ul>
+                </li>
+                
+              </ul>
+              
+            </div>
+          </div>
+         
+        
+
+      </nav></header>
+      <div class="formm">
+        <h1>DRAW YOUR PATTERNS</h1>
+        <form >
+          
+          <label>back length</label><br>
+          <input type="number" id="bl" ><br>
+          <label>front length</label><br>
+          <input type="number" id="fl" ><br>
+          <label>waist circumference</label><br>
+          <input type="number" id="wc"><br>
+          <label>upper chest circumference</label><br>
+          <input type="number" id="uc" ><br>
+          <label>lower bust circumference</label><br>
+          <input type="number"  id="lc"><br>
+          <label>Apex to apex</label><br>
+          <input type="number" id="a2a"><br>
+          <label>Shoulder to apex</label><br>
+          <input type="number"  id="s2a"><br>
+          <label>Shoulder width</label><br>
+          <input type="number" id="sw" ><br>
+          <label>Sleeve top circumference</label><br>
+          <input type="number" id="handtopc" ><br>
+          <label>Sleeve bottom circumference</label><br>
+          <input type="number" id="handbotc" ><br>
+          <label>Sleeve length</label><br>
+          <input type="number"  id="handl"><br>
+          <label>Back neck depth</label><br>
+          <input type="number" id="bneck" ><br>
+          <label>front-neck depth</label><br>
+          <input type="number" id="fneck" ><br>
+          <button  class="sub" onclick="calc()">Get your pattern</button>
+        </form>
+       
+      </div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-8">
+            <img src="dart1.jpg">
+        </div>
+        <div class="col-4">
+            <div class="value1"><ol class="back">
+              <li id="q"></li>
+              <li id="w"></li>
+              <li id="e"></li>
+              <li id="r"></li>
+              <li id="t"></li>
+              <li id="y"></li>
+            </ol></div>
+        </div>
+    </div>
+
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-8">
+            <img src="dart2.jpg">
+        </div>
+        <div class="col-4">
+<div class="value1"><ol class="front">
+  <li id="u"></li>
+  <li id="i"></li>
+  <li id="o"></li>
+  <li id="p"></li>
+  <li id="a"></li>
+  <li id="s"></li>
+  <li id="d"></li>
+  
+
+</ol></div>
+        </div>
+    </div>
+
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-8">
+            <img src="pati.jpg">
+        </div>
+        <div class="col-4">
+            <div class="value1"><ol class="patti">
+              <li id="f"></li>
+              <li id="g"></li>
+              <li id="h"></li>
+            </ol></div>
+        </div>
+    </div>
+
+</div>
+<div class="container-fluid">
+  <div class="row">
+      <div class="col-8">
+          <img src="hand.jpg">
+      </div>
+      <div class="col-4">
+          <div class="value1"><ol class="hand">
+            <li id="j"></li>
+            <li id="k"></li>
+            <li id="l"></li>
+            <li id="z"></li>
+          </ol></div>
+      </div>
+  </div>
+
+</div>
+    
+      <script src="dart.js"></script>
+</body>

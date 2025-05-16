@@ -24,8 +24,9 @@ var tools=document.getElementById("tools")
 var fab=document.getElementById("fabric")
 var kits=document.getElementById("kits")
 var box=document.querySelectorAll(".col-6")
+var convas=document.querySelector(".offcanvas")
 function tls(){
-    
+    convas.style.display="none"
 all.style.backgroundColor="white"
 all.style.color="black"
 fab.style.color="black"
@@ -45,7 +46,7 @@ box.forEach((e)=>{
 })
 }
 function al(){
-    
+      convas.style.display="none"
 tools.style.backgroundColor="white"
 tools.style.color="black"
 fab.style.color="black"
@@ -62,6 +63,7 @@ box.forEach((e)=>{
 }
 
 function fbs(){
+      convas.style.display="none"
 all.style.backgroundColor="white"
 all.style.color="black"
 tools.style.color="black"
@@ -82,6 +84,7 @@ box.forEach((e)=>{
   
 }
 function kts(){
+      convas.style.display="none"
 all.style.backgroundColor="white"
 all.style.color="black"
 tools.style.color="black"

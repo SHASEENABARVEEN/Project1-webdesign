@@ -9,6 +9,10 @@
     padding-top:5px;
     padding-left:20px;
 }
+button.dropdown-item{
+    font-size:15px;
+}
+        
 button.navbar-toggler{
     font-size: 20px;
     position:absolute;

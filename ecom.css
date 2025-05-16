@@ -166,6 +166,9 @@ button.no1{
     div.card h2{
         font-size: 15px;
     }
+    button.dropdown-item{
+    font-size:15px;
+}
     .card img{
         width:200px;
         height:210px;

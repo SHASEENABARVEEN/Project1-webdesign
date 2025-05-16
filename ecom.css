@@ -9,7 +9,7 @@
     padding-top:5px;
     padding-left:20px;
 }
-button.dropdown-item{
+ul>li>button.dropdown-item{
     font-size:15px;
 }
         
@@ -166,15 +166,14 @@ button.no1{
     div.card h2{
         font-size: 15px;
     }
-    button.dropdown-item{
-    font-size:15px;
+   ul>li> button.dropdown-item{
+    font-size:20px;
 }
     .card img{
         width:200px;
         height:210px;
     }
-     button.dropdown-item{
-    font-size: 5px;
+   
 }
     div.card h3{
         font-size:15px;

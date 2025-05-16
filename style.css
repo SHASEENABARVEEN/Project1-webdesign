@@ -80,6 +80,7 @@ ul{
 .formm form input{
     width:200px;
     height:30px;
+    background-color:white;
 }
 .formm button{
     background-color: maroon;

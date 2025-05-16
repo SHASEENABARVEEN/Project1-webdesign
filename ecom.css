@@ -62,6 +62,7 @@ button.navbar-toggler{
 }
 .dropdown-menu {
     background-color: black;
+    font-size:15px;
 }
 .foot{
     position:fixed;

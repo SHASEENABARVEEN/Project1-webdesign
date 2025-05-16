@@ -60,6 +60,8 @@ button.navbar-toggler{
 .dropdown-menu {
     background-color: black;
 }
+button.dropdown-item{
+    font-size:15px;
 .foot{
     position:fixed;
     bottom:0px;   

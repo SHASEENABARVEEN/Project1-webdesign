@@ -62,9 +62,9 @@ ul{
  
 h1.aarii{
     position: absolute;
-    top:180px;
+    top:170px;
     padding:10px 15px;
-    margin-left: -90px;
+    margin-left: -100px;
     font-size: 40px;
     color:whitesmoke;
     opacity: 0.8;
@@ -82,7 +82,7 @@ h1.emb{
     opacity:0.8;
     width:fit-content;
     position:absolute;
-    top:490px;
+    top:460px;
     padding:10px 15px;
      margin-left: -110px;
     font-size:40px;
@@ -148,7 +148,7 @@ img.draf{
     }
     h1.aarii{
         top:200px;
-        left:570px;
+    
     }
     h1.emb{
         top:640px;
